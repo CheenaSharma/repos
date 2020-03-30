@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Roicians">
+
+<listeners>
+	<listener class-name="extent_reports.Extentreport_listener"/>
+</listeners>
+
+
+<test name="Hybrid Framework" >
+    <classes>
+       <class name="roicians.testcases.Contact_ustest"/>
+    </classes>
+    
+ </test>
+</suite>

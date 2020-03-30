@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Roicians Framework]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Hybrid Framework(failed)">
+    <classes>
+      <class name="roicians.testcases.Contact_ustest">
+        <methods>
+          <include name="titlevalidation"/>
+          <include name="close"/>
+          <include name="setprop"/>
+        </methods>
+      </class> <!-- roicians.testcases.Contact_ustest -->
+    </classes>
+  </test> <!-- Hybrid Framework(failed) -->
+</suite> <!-- Failed suite [Roicians Framework] -->
